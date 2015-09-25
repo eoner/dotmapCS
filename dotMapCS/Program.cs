@@ -101,7 +101,7 @@ namespace dotMapCS
             //   dotmaker.ReadPoints("istNufus.csv");
 
             for (int i = 7; i <= 14; i++)
-                dotmaker.RenderTiles(i, @"..\..\data\istNufus.csv");
+                dotmaker.RenderTiles(i, @"..\..\demo\tiles\istNufus");
         }
     }
 }
